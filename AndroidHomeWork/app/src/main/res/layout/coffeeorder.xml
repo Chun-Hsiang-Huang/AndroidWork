@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="口味"
+            android:textSize="25dp"
+            android:layout_weight="0.55"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="價錢"
+            android:textSize="25dp"
+            android:layout_weight="1.03"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="數量"
+            android:textSize="25dp"
+            android:layout_weight="0.81"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/tvEspresso"
+            android:text="Espresso"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvEspresso價格"
+            android:text="NT70"
+            android:textSize="20dp"
+            android:layout_weight="0.5"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn濃縮加"
+            android:background="@drawable/plus"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+        <EditText
+            android:id="@+id/txt濃縮"
+            android:textSize="20dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/btn濃縮減"
+            android:background="@drawable/minus"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/tv美式"
+            android:text="美式咖啡"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv美式價格"
+            android:text="NT65"
+            android:textSize="20dp"
+            android:layout_weight="0.5"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn美式加"
+            android:background="@drawable/plus"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+
+        <EditText
+            android:id="@+id/txt美式"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btn美式減"
+            android:background="@drawable/minus"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tv拿鐵"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拿        鐵"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv拿鐵價格"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="NT75"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn拿鐵加"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:background="@drawable/plus" />
+
+        <EditText
+            android:id="@+id/txt拿鐵"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btn拿鐵減"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:background="@drawable/minus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/tv卡布"
+            android:text="卡布奇諾"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv卡布價格"
+            android:text="NT80"
+            android:textSize="20dp"
+            android:layout_weight="0.5"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn卡布加"
+            android:background="@drawable/plus"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+        <EditText
+            android:id="@+id/txt卡布奇諾"
+            android:textSize="20dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/btn卡布減"
+            android:background="@drawable/minus"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/tv摩卡"
+            android:text="摩        卡"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv摩卡價格"
+            android:text="NT75"
+            android:textSize="20dp"
+            android:layout_weight="0.5"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn摩卡加"
+            android:background="@drawable/plus"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+        <EditText
+            android:id="@+id/txt摩卡"
+            android:textSize="20dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/btn摩卡減"
+            android:background="@drawable/minus"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lblMessage"
+            android:text="送出前請先確認[口味]及[數量]是否正確無誤"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn看口味"
+            android:layout_weight="1"
+            android:text="不知道選何種口味點我"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn送出"
+            android:layout_weight="1"
+            android:text="送出"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

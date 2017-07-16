@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.michael.androidhomework.CoffeeOrderlist">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:orientation="horizontal"
+            android:layout_weight="0.7"
+            android:text="品名"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:text="數量"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:text="小計"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:orientation="horizontal"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/lblCount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/lblSubtotal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:textSize="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:text="總計"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"/>
+        <TextView
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:id="@+id/lblList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnGoback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="點我回首頁"/>
+    </LinearLayout>
+
+</LinearLayout>

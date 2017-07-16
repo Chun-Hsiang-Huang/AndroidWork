@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:text="Espresso"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.5"
+            android:text="義式濃縮咖啡，可以喝到咖啡的原味"
+            android:textSize="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:text="美式咖啡"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.5"
+            android:text="把濃縮咖啡加水沖淡一些，還滿受上班族喜愛的。"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:text="拿鐵"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.5"
+            android:text="主要成分為牛奶，若不常喝咖啡的可以選擇這款。"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_weight="1"
+        android:text="卡布奇諾"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="0.5"
+        android:text="滿滿的一杯但內容物其實有一半以上是奶泡，但點卡布奇諾就是要喝奶泡。"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:text="摩卡"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.5"
+            android:text="除了基本Espresso、牛奶、奶油外，還添加了巧克力，主要是喝巧克力的味道，適合口味較甜的朋友。"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn回上頁"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="回去買咖啡"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
